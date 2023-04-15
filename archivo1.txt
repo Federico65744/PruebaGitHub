@@ -11,5 +11,6 @@ class Persona{
 
     public void toString(){
         System.out.println("Saludos Amigos");
+        System.out.println("Mi nombre es"+nombre);
     }
 }
