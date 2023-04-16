@@ -9,6 +9,10 @@ class Persona{
         this.apellido = apellido;
     }
 
+   public String getNombre(){
+       return nombre;
+   }
+
     public void toString(){
         System.out.println("Saludos Amigos");
         System.out.println("Mi nombre es"+nombre);
